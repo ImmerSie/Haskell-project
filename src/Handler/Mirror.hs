@@ -1,11 +1,12 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE ViewPatterns #-}
 
 module Handler.Mirror where
 
 import Import
-import qualified Data.Text as T
+import qualified Data.Text as T hiding(null)
 
 getMirrorR :: Handler RepHtml
 getMirrorR = do

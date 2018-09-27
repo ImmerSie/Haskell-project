@@ -44,6 +44,7 @@ import Handler.Common
 import Handler.Home
 import Handler.Echo
 import Handler.Mirror
+import Handler.Blog
 import Handler.Comment
 import Handler.Profile
 
