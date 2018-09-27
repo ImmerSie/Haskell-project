@@ -43,6 +43,7 @@ import System.Log.FastLogger                (defaultBufSize, newStdoutLoggerSet,
 import Handler.Common
 import Handler.Home
 import Handler.Echo
+import Handler.Mirror
 import Handler.Comment
 import Handler.Profile
 
