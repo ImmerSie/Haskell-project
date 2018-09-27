@@ -10,3 +10,9 @@ It contains:
 - A page that provides the ability to create a blog post (saving it to a database), with the ability to see a list of all blog posts made, and see the details of a blog post by clicking on the list item (at url /blog and url blog/postid)
 
 These were based on a tutorial, which can be found at "https://www.schoolofhaskell.com/user/yogsototh/a-yesod-tutorial", although a number of adjustments had to be made to adjust for technologies
+
+To run the project:
+- Navigate to project root directory
+- Enter command: >stack build --fast (stack build yesod-bin may also be necessary)
+- Enter command: >stack exec -- yesod devel
+- Navigate in browser to indicate localhost port
